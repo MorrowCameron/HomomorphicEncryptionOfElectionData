@@ -17,7 +17,7 @@ m.link_context(context)
 ### Before performing operation on encrypted data, we expect our salary to be $10,000
 print(round(m.decrypt()[0], 2))
 
-### Run the operation from pollWorker.py to see the new outputs (should be $12,600)
+### Decrypting the modified salary (should be $12,600)
 m_proto = utils.read_data("./outputs/salary_encrypted_new_with_plain_calculations.txt")
 m = ts.lazy_ckks_vector_from(m_proto)
 m.link_context(context)
