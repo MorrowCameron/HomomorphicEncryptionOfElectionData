@@ -1,4 +1,10 @@
 # Homomorphic Encryption Of Election Data
+## Contributors
+Cameron Morrow
+
+Michael Slu
+
+Noa Kehle
 ## Open-source Libraries for Homomorphic Encryption
 There exists a multitude of open-source libraries for homomorphic encryption. Most notably, there exists a curated list of amazing homeopathic encryption libraries, software, and resources from which we extracted 3 potential libraries for applying this privacy-preserving technology [3]. The 3 libraries are Microsoft Seal, TenSEAL, and cuHE.
 
